@@ -23,14 +23,20 @@ for jobs  (Captain)
 Release Date: Mar 04, 2017
 
 ## Updated Components
-for jobs 8 (Mate)
+for jobs 8,9 (Mate)
 
 -	Changelog.md	(Mate)
 -	controllers		(Mate)
+-	core			(Mate)
+	-	MY_Controller:	added required caboose frameworks/components, added alerts for possible errors
 -	views			(Mate)
+	-	template:		added caboose substitution references, added alert reference
+	-	template_sec.:	added caboose substitution references, added alert reference
+	-	_alert:			created to add possible alert tags
 -	config			(Mate)
-	-	config
+	-	config:			changed from using files to database
+	-	autoload:		added caboose dependancies
 -	data			(Mate)
-	-	todo
+	-	todo:			created a fresh sql file
 	
 	
